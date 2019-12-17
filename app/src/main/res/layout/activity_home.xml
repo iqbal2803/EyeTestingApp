@@ -37,7 +37,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#787FDA">
+            android:background="@color/colorButton">
 
             <TextView
                 android:id="@+id/tv_buta_warna_parsial"
@@ -73,7 +73,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#787FDA">
+            android:background="@color/colorButton">
 
             <TextView
                 android:id="@+id/tv_info"
@@ -109,7 +109,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#787FDA">
+            android:background="@color/colorButton">
 
             <TextView
                 android:id="@+id/tv_buta_warna_non_parsial"
@@ -145,7 +145,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#787FDA">
+            android:background="@color/colorButton">
 
             <TextView
                 android:id="@+id/tv_tutorial"

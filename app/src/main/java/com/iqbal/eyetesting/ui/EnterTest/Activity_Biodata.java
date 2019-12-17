@@ -5,9 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.iqbal.eyetesting.R;
+import com.jaredrummler.materialspinner.MaterialSpinner;
 
 public class Activity_Biodata extends AppCompatActivity {
+    TextInputEditText et_nama,et_umur;
+    MaterialSpinner spinner_jeniskelamin;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -25,6 +29,12 @@ public class Activity_Biodata extends AppCompatActivity {
         ActionBar menu = getSupportActionBar();
         menu.setDisplayShowHomeEnabled(true);
         menu.setDisplayHomeAsUpEnabled(true);
+
+        et_nama = findViewById(R.id.et_nama);
+        et_umur = findViewById(R.id.et_umur);
+        spinner_jeniskelamin = findViewById(R.id.spinner_jeniskelamin);
+        spinner_jeniskelamin.setItems("Laki-Laki","Perempuan");
+
     }
 
     @Override
