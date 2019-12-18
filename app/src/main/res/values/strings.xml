@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Eye Testing</string>
+    <string name="info_butawarna_total">
+        Penderita buta warna total(non parsial) sama sekali tidak dapat mengidentifikasi warna yang dilihatnya.
+        Seseorang dengan buta warna total hanya dapat melihat hitam dan putih (gradasi warna abu-abu) atau monokrom.
+        Kasus ini sangat jarang ditemukan.
+    </string>
+    <string name="info_butawarna_parsial">
+        Tes buta warna parsial adalah prosedur pemeriksaan medis untuk mengetahui apakah mata mampu melihat atau membedakan warna dengan baik. Pemeriksaan ini sering kali dilakukan untuk mendapatkan surat keterangan buta warna yang diperlukan sebagai syarat melamar pekerjaan atau melanjutkan studi.
+        \n
+        Buta warna parsial terbagi menjadi dua jenis dan masing-masing memiliki gejala yang berbeda. Berikut adalah penjelasannya:\n\n
+        <b>Buta warna merah-hijau</b>\n
+            Buta warna merah-hijau merupakan jenis buta warna yang paling sering dialami oleh penderita buta warna. Ada beberapa jenis buta warna merah-hijau, yaitu:\n
+        <li><b>Protanopia</b></li>\n
+            Protanopia adalah jenis buta warna parsial yang terjadi ketika seseorang melihat warna merah tampak seperti warna hitam. Penderita buta warna jenis ini juga mungkin akan melihat warna jingga hijau menjadi kuning\n
+        <li><b>Protanomali</b></li>\n
+            Penderita protanomali akan melihat warna jingga, kuning, dan merah, menjadi warna hijau. Warna hijau yang terlihat juga tidak secerah warna aslinya.\n
+        <li><b>Deuteranomali</b></li>\n
+            Seseorang dikatakan menderita deuteranomali jika melihat warna hijau dan kuning tampak seperti merah. Penderitanya juga sulit membedakan antara ungu dan biru.\n
+        <li><b>Deuteranopia</b></li>\n
+            Deuteranopia adalah kondisi ketika mata melihat warna hijau menjadi krem dan warna merah menjadi kuning kecokelatan\n\n
+
+        <b>Buta warna biru-kuning</b>\n
+            Buta warna biru-kuning merupakan jenis buta warna yang lebih jarang dibandingkan dengan merah-hijau. Terdapat 2 jenis buta warna biru-kuning, yaitu:\n
+        <li><b>Tritanomali</b></li>\n
+            Jenis buta warna parsial ini membuat seseorang melihat warna biru menjadi lebih hijau. Kondisi ini juga kerap membuat penderitanya sulit membedakan warna merah muda dengan warna merah atau kuning.\n
+        <li><b>Tritanopia</b></li>\n
+            Tritanopia adalah kondisi ketika mata melihat warna biru seperti hijau dan warna kuning seperti abu-abu terang atau keunguan.
+    </string>
 </resources>
