@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 
@@ -29,6 +31,9 @@ public class Activity_Info extends AppCompatActivity {
         ActionBar menu = getSupportActionBar();
         menu.setDisplayShowHomeEnabled(true);
         menu.setDisplayHomeAsUpEnabled(true);
+
+        BitmapDrawable background = new BitmapDrawable (BitmapFactory.decodeResource(getResources(), R.drawable.bg_toolbar_fix));
+        menu.setBackgroundDrawable(background);
 
         cv_parsial = findViewById(R.id.card_view_buta_warna_parsial);
         cv_nonparsial = findViewById(R.id.card_view_buta_warna_non_parsial);

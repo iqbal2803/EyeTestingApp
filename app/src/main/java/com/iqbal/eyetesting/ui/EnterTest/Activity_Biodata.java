@@ -3,6 +3,8 @@ package com.iqbal.eyetesting.ui.EnterTest;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -29,6 +31,9 @@ public class Activity_Biodata extends AppCompatActivity {
         ActionBar menu = getSupportActionBar();
         menu.setDisplayShowHomeEnabled(true);
         menu.setDisplayHomeAsUpEnabled(true);
+
+        BitmapDrawable background = new BitmapDrawable (BitmapFactory.decodeResource(getResources(), R.drawable.bg_toolbar_fix));
+        menu.setBackgroundDrawable(background);
 
         et_nama = findViewById(R.id.et_nama);
         et_umur = findViewById(R.id.et_umur);
