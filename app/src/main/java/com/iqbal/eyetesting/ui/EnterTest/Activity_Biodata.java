@@ -38,7 +38,7 @@ public class Activity_Biodata extends AppCompatActivity {
         et_nama = findViewById(R.id.et_nama);
         et_umur = findViewById(R.id.et_umur);
         spinner_jeniskelamin = findViewById(R.id.spinner_jeniskelamin);
-        spinner_jeniskelamin.setItems("Laki-Laki","Perempuan");
+        spinner_jeniskelamin.setItems("Pilih Jenis Kelamin","Laki-Laki","Perempuan");
 
     }
 
