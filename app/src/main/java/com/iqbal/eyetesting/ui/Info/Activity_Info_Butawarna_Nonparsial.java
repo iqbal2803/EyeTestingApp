@@ -30,6 +30,7 @@ public class Activity_Info_Butawarna_Nonparsial extends AppCompatActivity {
 
         BitmapDrawable background = new BitmapDrawable (BitmapFactory.decodeResource(getResources(), R.drawable.bg_toolbar_fix));
         menu.setBackgroundDrawable(background);
+        menu.setElevation(0);
 
     }
 

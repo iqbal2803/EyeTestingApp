@@ -34,6 +34,7 @@ public class Activity_Biodata extends AppCompatActivity {
 
         BitmapDrawable background = new BitmapDrawable (BitmapFactory.decodeResource(getResources(), R.drawable.bg_toolbar_fix));
         menu.setBackgroundDrawable(background);
+        menu.setElevation(0);
 
         et_nama = findViewById(R.id.et_nama);
         et_umur = findViewById(R.id.et_umur);

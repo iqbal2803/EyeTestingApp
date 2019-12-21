@@ -34,6 +34,7 @@ public class Activity_Info extends AppCompatActivity {
 
         BitmapDrawable background = new BitmapDrawable (BitmapFactory.decodeResource(getResources(), R.drawable.bg_toolbar_fix));
         menu.setBackgroundDrawable(background);
+        menu.setElevation(0);
 
         cv_parsial = findViewById(R.id.card_view_buta_warna_parsial);
         cv_nonparsial = findViewById(R.id.card_view_buta_warna_non_parsial);

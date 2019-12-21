@@ -5,8 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.Info.Activity_Info"
-    android:background="@color/colorBackground">
+    android:background="@drawable/bg_header">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/corner_top_only_custom"
+
+        >
+    </ImageView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view_buta_warna_parsial"
@@ -18,7 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.1"
+        app:cardElevation="3dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
