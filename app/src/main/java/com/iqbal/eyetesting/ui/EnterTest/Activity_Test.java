@@ -97,7 +97,7 @@ public class Activity_Test extends AppCompatActivity {
                 Bitmap bitmaptest = canvas.getScaleBitmap(1024, 768);  // 300 x 200;
                 String hasildraw = TextExtractUtil.getText(getApplicationContext(),bitmaptest);
 
-                Toast.makeText(getApplicationContext(), angkatest[x]+"="+hasildraw,Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), angkatest[x]+"="+hasildraw,Toast.LENGTH_SHORT).show();
                 if(angkatest[x].equals(hasildraw) || (angkatest[x].equals("0") && hasildraw.equals("")) ){ //jika benar atau jika tidak angka dan tidak mengisi maka benar
                     skor++;
                     //Toast.makeText(getApplicationContext(), "Benar ="+skor,Toast.LENGTH_SHORT).show();
