@@ -27,7 +27,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     " %s TEXT NOT NULL," +
                     " %s INTEGER NOT NULL," +
                     " %s TEXT NOT NULL)",
-            DatabaseContract.TABLE_TEST,
+            DatabaseContract.TABLE_USER,
             DatabaseContract.TestColumns._ID,
             DatabaseContract.UserColumns.NAMA,
             DatabaseContract.UserColumns.UMUR,

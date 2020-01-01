@@ -27,4 +27,35 @@
         <li><b>Tritanopia</b></li>\n
             Tritanopia adalah kondisi ketika mata melihat warna biru seperti hijau dan warna kuning seperti abu-abu terang atau keunguan.
     </string>
+
+    <string name="keterangan_test1">
+
+    </string>
+
+    <string name="keterangan_test2">
+
+    </string>
+
+    <string name="keterangan_test3">
+
+    </string>
+
+    <string name="tutorial1">
+        1. Masuk ke halaman menu Enter Test.
+        \n
+        2. Kemudian Isilah Biodata, seperti contoh di bawah ini
+        \n
+    </string>
+    <string name="tutorial2">
+        3. Lakukan Test dengan cara menggambar pada gambar test yang telah disediakan
+        \n
+        Jika saat test anda yakin gambar test bukan angka, maka langsung klik tombol next untuk lanjut ke test berikutnya sampai 14 Test
+        \n
+    </string>
+    <string name="tutorial3">
+        4. Muncul Hasil Test dan Keterangannya
+    </string>
+
+
+
 </resources>

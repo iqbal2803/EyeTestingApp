@@ -56,6 +56,18 @@ public class TestHelper {
                 DatabaseContract.TestColumns._ID + " DESC");
     }
 
+    public Cursor queryDataRandom14() {
+        return database.query(DATABASE_TABLE,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "RANDOM()"
+                , String.valueOf(14));
+
+    }
+
     public Cursor queryById(String id) {
         return database.query(DATABASE_TABLE, null
                 , DatabaseContract.TestColumns._ID + " = ?"

@@ -9,6 +9,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.iqbal.eyetesting.R;
@@ -51,7 +52,25 @@ public class Activity_Biodata extends AppCompatActivity {
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),Activity_Test.class);
+                if(et_nama.getText().toString().equals("")){ //jika belum mengisi
+                    et_nama.setError("Harap mengisi Nama");
+                    et_nama.setFocusable(true);
+                    et_nama.requestFocus();
+                    return;
+                }else if (et_umur.getText().toString().equals("")){ //jika belum mengisi
+                    et_umur.setError("Harap mengisi Umur");
+                    et_umur.setFocusable(true);
+                    et_umur.requestFocus();
+                    return;
+                }else if (spinner_jeniskelamin.getSelectedIndex()==0){ //jika belum memilih
+                    Toast.makeText(getApplicationContext(),"Harap Memilih Jenis kelamin",Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                Intent i = new Intent(Activity_Biodata.this,Activity_Test.class);
+                i.putExtra("nama",et_nama.getText().toString());
+                i.putExtra("umur",et_umur.getText().toString());
+                i.putExtra("jenis_kelamin",spinner_jeniskelamin.getText().toString());
                 startActivity(i);
             }
         });

@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".ui.EnterTest.Activity_Test"></activity>
         <activity android:name=".ui.Activity_SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +25,9 @@
         <activity
             android:name=".ui.EnterTest.Activity_Biodata"
             android:theme="@style/AppTheme" />
+        <activity android:name=".ui.EnterTest.Activity_Test" />
+        <activity android:name=".ui.EnterTest.Activity_Hasil"
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".ui.History.Activity_History"
             android:theme="@style/AppTheme" />
@@ -39,8 +41,9 @@
             android:name=".ui.Info.Activity_Info_Butawarna_Nonparsial"
             android:theme="@style/AppTheme" />
 
-        <meta-data android:name="com.google.android.gms.vision.DEPEDENCIES"
-            android:value="orc"/>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPEDENCIES"
+            android:value="orc" />
     </application>
 
 </manifest>
