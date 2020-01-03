@@ -37,4 +37,6 @@ dependencies {
     implementation 'com.github.infotech-group:canvasview:1.0.0'
     implementation 'com.google.android.gms:play-services-vision:19.0.0'
 
+    implementation 'com.google.code.gson:gson:2.8.5'
+
 }

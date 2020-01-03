@@ -11,7 +11,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     private static final String SQL_CREATE_TABLE_TEST = String.format("CREATE TABLE %s"
-                    + " (%s INTEGER PRIMARY KEY," +
+                    + " (%s INTEGER AUTO INCREMENT PRIMARY KEY," +
                     " %s INTEGER NOT NULL," +
                     " %s TEXT NOT NULL," +
                     " %s BLOB NOT NULL)",
@@ -23,16 +23,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     );
 
     private static final String SQL_CREATE_TABLE_USER = String.format("CREATE TABLE %s"
-                    + " (%s INTEGER PRIMARY KEY," +
+                    + " (%s INTEGER AUTO INCREMENT PRIMARY KEY," +
                     " %s TEXT NOT NULL," +
                     " %s INTEGER NOT NULL," +
-                    " %s TEXT NOT NULL)",
+                    " %s TEXT NOT NULL," +
+                    " %s INTEGER NOT NULL," +
+                    " %s DATETIME NOT NULL)",
             DatabaseContract.TABLE_USER,
-            DatabaseContract.TestColumns._ID,
+            DatabaseContract.UserColumns._ID,
             DatabaseContract.UserColumns.NAMA,
             DatabaseContract.UserColumns.UMUR,
             DatabaseContract.UserColumns.JENIS_KELAMIN,
-            DatabaseContract.UserColumns.NILAI
+            DatabaseContract.UserColumns.NILAI,
+            DatabaseContract.UserColumns.TGL_TEST
     );
 
     public DatabaseHelper(Context context) {

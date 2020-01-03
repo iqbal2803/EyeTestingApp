@@ -18,5 +18,6 @@ public class DatabaseContract {
         public static String UMUR = "umur";
         public static String JENIS_KELAMIN = "jenis_kelamin";
         public static String NILAI = "nilai";
+        public static String TGL_TEST = "tgltest";
     }
 }

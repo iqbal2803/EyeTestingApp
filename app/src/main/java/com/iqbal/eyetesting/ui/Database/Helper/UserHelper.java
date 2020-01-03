@@ -53,7 +53,7 @@ public class UserHelper {
                 null,
                 null,
                 null,
-                DatabaseContract.UserColumns._ID + " DESC");
+                DatabaseContract.UserColumns.TGL_TEST + " DESC");
     }
 
     public Cursor queryById(String id) {

@@ -31,6 +31,8 @@
         <activity
             android:name=".ui.History.Activity_History"
             android:theme="@style/AppTheme" />
+        <activity android:name=".ui.History.Activity_History_Detail"
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".ui.Info.Activity_Info"
             android:theme="@style/AppTheme" />
