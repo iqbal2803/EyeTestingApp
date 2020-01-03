@@ -52,4 +52,9 @@ public class Activity_Hasil extends AppCompatActivity {
             tv_keterangan.setText(R.string.keterangan_test3);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
 }
