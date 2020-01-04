@@ -203,7 +203,7 @@
 
     <com.uncopt.android.widget.text.justify.JustifiedTextView
         android:id="@+id/tv_keterangan"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"

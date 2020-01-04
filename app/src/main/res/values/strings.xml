@@ -29,15 +29,15 @@
     </string>
 
     <string name="keterangan_test_totsl">
-        KET1
+        Anda tidak bisa menjawab secara keseluruhan tes, Anda buta warna total
     </string>
 
     <string name="keterangan_test_parsial">
-        KET2
+        Anda tidak bisa menjawab sebagian dari tes, Anda buta warna parsial
     </string>
 
     <string name="keterangan_test_normal">
-        KET3
+        Anda berhasil menjawab seluruh tes, Anda tidak buta warna
     </string>
 
     <string name="tutorial1">
