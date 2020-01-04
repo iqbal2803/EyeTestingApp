@@ -75,27 +75,27 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("insert into tb_test values(Null,'7','mudah','plate15.png')");
         db.execSQL("insert into tb_test values(Null,'16','mudah','plate16.png')");
         db.execSQL("insert into tb_test values(Null,'73','mudah','plate17.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate18.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate19.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate20.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate21.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate18.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate19.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate20.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate21.png')");
         db.execSQL("insert into tb_test values(Null,'26','mudah','plate22.png')");
         db.execSQL("insert into tb_test values(Null,'42','mudah','plate23.png')");
         db.execSQL("insert into tb_test values(Null,'35','mudah','plate24.png')");
         db.execSQL("insert into tb_test values(Null,'96','mudah','plate25.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate26.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate27.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate28.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate29.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate30.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate31.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate32.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate33.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate34.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate35.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate36.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate37.png')");
-        db.execSQL("insert into tb_test values(Null,'0','mudah','plate38.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate26.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate27.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate28.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate29.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate30.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate31.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate32.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate33.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate34.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate35.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate36.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate37.png')");
+//        db.execSQL("insert into tb_test values(Null,'0','mudah','plate38.png')");
     }
 
     }

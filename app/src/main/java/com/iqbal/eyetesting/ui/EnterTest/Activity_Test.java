@@ -88,7 +88,7 @@ public class Activity_Test extends AppCompatActivity {
                 switch (event.getAction()) {
                     case MotionEvent.ACTION_UP:
                         // The touch just ended
-                        Log.d(DEBUG_TAG, "tidak sentuh");
+                        //Log.d(DEBUG_TAG, "tidak sentuh");
                         canvas.setBaseColor(Color.WHITE);
                         Bitmap bitmaptest = canvas.getScaleBitmap(1024, 768);  // 300 x 200;
                         String hasildraw = TextExtractUtil.getText(getApplicationContext(), bitmaptest);
@@ -101,7 +101,7 @@ public class Activity_Test extends AppCompatActivity {
                         break;
                     default:
                         // The touch start
-                        Log.d(DEBUG_TAG, "sentuh");
+                        //Log.d(DEBUG_TAG, "sentuh");
                 }
                 return true;
             }
@@ -160,7 +160,7 @@ public class Activity_Test extends AppCompatActivity {
                 String hasildraw = TextExtractUtil.getText(getApplicationContext(), bitmaptest);
 
                 //Toast.makeText(getApplicationContext(), angkatest[x]+"="+hasildraw,Toast.LENGTH_SHORT).show();
-                if (angkatest[x].equals(hasildraw) || (angkatest[x].equals("0") && hasildraw.equals(""))) { //jika benar atau jika tidak angka dan tidak mengisi maka benar
+                if (angkatest[x].equals(hasildraw)) { //jika benar atau jika tidak angka dan tidak mengisi maka benar
                     skor++;
                     //Toast.makeText(getApplicationContext(), "Benar ="+skor,Toast.LENGTH_SHORT).show();
                 }

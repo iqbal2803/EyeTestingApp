@@ -44,12 +44,12 @@ public class Activity_Hasil extends AppCompatActivity {
         tv_keterangan = findViewById(R.id.tv_keterangan);
 
         tv_hasil.setText("Hasil Nilai : "+getIntent().getStringExtra("score"));
-        if(Integer.parseInt(getIntent().getStringExtra("score"))<5){
-            tv_keterangan.setText(R.string.keterangan_test1);
-        }else if(Integer.parseInt(getIntent().getStringExtra("score"))<10){
-            tv_keterangan.setText(R.string.keterangan_test2);
-        }else if(Integer.parseInt(getIntent().getStringExtra("score"))<=14){
-            tv_keterangan.setText(R.string.keterangan_test3);
+        if(Integer.parseInt(getIntent().getStringExtra("score"))==0){
+            tv_keterangan.setText(R.string.keterangan_test_totsl);
+        }else if(Integer.parseInt(getIntent().getStringExtra("score"))<14){
+            tv_keterangan.setText(R.string.keterangan_test_parsial);
+        }else if(Integer.parseInt(getIntent().getStringExtra("score"))==14){
+            tv_keterangan.setText(R.string.keterangan_test_normal);
         }
     }
 

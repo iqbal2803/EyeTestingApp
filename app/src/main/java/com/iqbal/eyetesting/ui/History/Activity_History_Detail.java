@@ -61,12 +61,12 @@ public class Activity_History_Detail extends AppCompatActivity {
         }
         tv_nilai.setText(getIntent().getStringExtra(NILAI));
 
-        if(Integer.parseInt(getIntent().getStringExtra(NILAI))<5){
-            tv_keterangan.setText(R.string.keterangan_test1);
-        }else if(Integer.parseInt(getIntent().getStringExtra(NILAI))<10){
-            tv_keterangan.setText(R.string.keterangan_test2);
-        }else if(Integer.parseInt(getIntent().getStringExtra(NILAI))<=14){
-            tv_keterangan.setText(R.string.keterangan_test3);
+        if(Integer.parseInt(getIntent().getStringExtra(NILAI))==0){
+            tv_keterangan.setText(R.string.keterangan_test_totsl);
+        }else if(Integer.parseInt(getIntent().getStringExtra(NILAI))<14){
+            tv_keterangan.setText(R.string.keterangan_test_parsial);
+        }else if(Integer.parseInt(getIntent().getStringExtra(NILAI))==14){
+            tv_keterangan.setText(R.string.keterangan_test_normal);
         }
     }
 }

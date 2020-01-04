@@ -28,15 +28,15 @@
             Tritanopia adalah kondisi ketika mata melihat warna biru seperti hijau dan warna kuning seperti abu-abu terang atau keunguan.
     </string>
 
-    <string name="keterangan_test1">
+    <string name="keterangan_test_totsl">
         KET1
     </string>
 
-    <string name="keterangan_test2">
+    <string name="keterangan_test_parsial">
         KET2
     </string>
 
-    <string name="keterangan_test3">
+    <string name="keterangan_test_normal">
         KET3
     </string>
 
