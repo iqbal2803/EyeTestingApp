@@ -82,7 +82,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_tutorial2"
-                app:srcCompat="@drawable/tutorial_test2" />
+                app:srcCompat="@drawable/plate1" />
 
             <com.uncopt.android.widget.text.justify.JustifiedTextView
                 android:id="@+id/tv_tutorial3"
